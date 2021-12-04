@@ -40,7 +40,7 @@ for t = t +dt,t < t(n)
     f(x,t) = [-a *phi_dot*sin(phi_1), -b*theta_dot*sin(theta), -d_dot
     a *phi_dot*cos(phi_1), -b*theta_dot*cos(theta), 0];
     
-    x0 = x + dt*xP
+    x0 = x + dt*x
 end
 
 end  
